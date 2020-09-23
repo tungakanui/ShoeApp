@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/screens/product_details_page.dart';
 import 'package:provider/provider.dart';
 
 import './screens/bottom_navigation_bar_controller.dart';
@@ -43,6 +44,7 @@ class MyApp extends StatelessWidget {
           HomePage.routeName: (ctx) => HomePage(),
           FavoritePage.routeName: (ctx) => FavoritePage(),
           CartPage.routeName: (ctx) => CartPage(),
+          ProductDetailsPage.routeName: (ctx) => ProductDetailsPage(),
         },
       ),
     );
